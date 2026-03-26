@@ -1,16 +1,26 @@
-## Hi there 👋
+# Darryl Wessling 👋
 
-<!--
-**dcprojects1111/dcprojects1111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Profile Photo](linkedinprofile pic.jpg)
 
-Here are some ideas to get you started:
+### Cybersecurity Student @ Mooloolaba TAFE | Founder of Cyber Surf
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[Contact Me](mailto:darrylwessling@protonmail.com)
+
+---
+
+## 🚀 Current Focus
+Completing Cert IV in Cybersecurity. Currently mastering **WSL environments**, **Splunk**, and **Network Security**.
+
+---
+
+## 🏆 Past Achievements
+- Established **DC Projects** technical laboratory.
+- Successfully configured enterprise-grade log analysis tools.
+- Developed automated security workflows in WSL environments.
+
+---
+
+## 🛠️ Skills & Tools
+- **Operating Systems:** Linux (WSL), Windows
+- **Security Tools:** Splunk, Network Security Analysis
+- **Interests:** Cybersecurity Architecture, Lab Development
