@@ -2,6 +2,9 @@
 Company_Protocols_Report.html
 Company_Protocols_Report_v*.html
 
+# Ignore personal resume
+"Darryl Wessling 31.3.25 (1).pdf"
+
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
