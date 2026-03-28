@@ -1,0 +1,10 @@
+# Ignore Company Protocol Reports
+Company_Protocols_Report.html
+Company_Protocols_Report_v*.html
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any local environment files
+.env
