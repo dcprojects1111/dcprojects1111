@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DC Projects | Profile</title>
+    <title>Darryl Wessling | CyberSurf Security</title>
     <style>
         body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #f3f2ef; color: rgba(0,0,0,0.9); margin: 0; padding: 20px; }
         .container { max-width: 800px; margin: auto; background: white; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
-        .header-banner { height: 150px; background-color: #a0b4b7; } /* Cyber Surf Grey-Blue */
+        .header-banner { height: 150px; background: linear-gradient(135deg, #0a1628 0%, #0d2240 60%, #00d2ff 100%); }
         .profile-pic { width: 150px; height: 150px; border-radius: 50%; border: 4px solid white; margin-top: -75px; margin-left: 20px; background: #eee; object-fit: cover; }
         .content { padding: 20px; }
         h1 { margin: 10px 0 5px 0; font-size: 24px; }
-        .headline { color: rgba(0,0,0,0.6); font-size: 18px; margin-bottom: 15px; }
+        .headline { color: rgba(0,0,0,0.6); font-size: 18px; margin-bottom: 6px; }
+        .location { color: rgba(0,0,0,0.5); font-size: 14px; margin-bottom: 15px; }
         .section { border-top: 1px solid #e0e0e0; padding: 20px 0; }
-        h2 { font-size: 20px; color: rgba(0,0,0,0.9); }
-        .btn { display: inline-block; padding: 10px 20px; background: #0a66c2; color: white; text-decoration: none; border-radius: 20px; font-weight: bold; margin-top: 10px; }
+        h2 { font-size: 20px; color: rgba(0,0,0,0.9); margin-bottom: 12px; }
+        .btn { display: inline-block; padding: 10px 20px; background: #0a66c2; color: white; text-decoration: none; border-radius: 20px; font-weight: bold; margin-top: 10px; margin-right: 8px; }
+        .btn-outline { background: white; color: #0a66c2; border: 1px solid #0a66c2; }
+        .experience-item { margin-bottom: 24px; }
+        .experience-item h3 { font-size: 18px; margin: 0 0 2px 0; color: #0a66c2; }
+        .date { color: rgba(0,0,0,0.6); font-size: 14px; margin: 2px 0 8px 0; }
+        ul li { margin-bottom: 8px; }
+        .skills-grid { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+        .skill-tag { background: #f3f2ef; border: 1px solid #e0e0e0; border-radius: 20px; padding: 6px 14px; font-size: 14px; color: rgba(0,0,0,0.75); }
+        .badge-current { display: inline-block; background: #e8f5e9; color: #2e7d32; font-size: 12px; font-weight: bold; padding: 2px 10px; border-radius: 10px; margin-left: 8px; vertical-align: middle; }
     </style>
 </head>
 <body>
@@ -22,24 +31,28 @@
 <div class="container">
     <div class="header-banner"></div>
     <img src="linkedinprofile pic.jpg" alt="Profile Photo" class="profile-pic">
-    
+
     <div class="content">
         <h1>Darryl Wessling</h1>
-        <p class="headline">Cybersecurity Student @ Mooloolaba TAFE</p>
+        <p class="headline">Founder &amp; Security Consultant — CyberSurf Security <span class="badge-current">Open for Business</span></p>
+        <p class="location">Sunshine Coast, QLD, Australia</p>
         <a href="mailto:darrylwessling@protonmail.com" class="btn">Contact Me</a>
+        <a href="https://www.cybersurf.au" class="btn btn-outline" target="_blank">cybersurf.au</a>
 
         <div class="section">
-            <h2>Current Focus</h2>
-            <p>Completing Cert IV in Cybersecurity. Currently mastering <strong>WSL environments</strong>, <strong>Splunk</strong>, <strong>Network Security</strong>, <strong>AI</strong>, and <strong>Kali Linux tools</strong>.</p>
+            <h2>About</h2>
+            <p>Cybersecurity professional and entrepreneur based on the Sunshine Coast. I founded CyberSurf Security to help everyday Australians and small businesses understand and reduce their digital risk — without the jargon.</p>
+            <p style="margin-top:10px;">Services include dark web breach checks, password manager setup, 2FA activation, and home network security scans delivered both remotely and in-person. Currently completing a Cert IV in Cybersecurity.</p>
         </div>
 
         <div class="section">
             <h2>Key Achievements</h2>
             <ul>
+                <li><strong>Founded CyberSurf Security:</strong> Built and launched a live cybersecurity services business on the Sunshine Coast — breach check product, automated report delivery, Stripe payments, and customer portal.</li>
                 <li><strong>$45 Million Funds Under Management:</strong> Achieved at AGAT Business Pty Ltd (2023).</li>
-                <li><strong>National Top 10 Seller:</strong> Flexirent Top 10 highest sellers nationally (Q1 FY 2015-2016).</li>
+                <li><strong>National Top 10 Seller:</strong> Flexirent Top 10 highest sellers nationally (Q1 FY 2015–2016).</li>
                 <li><strong>State-Level Recognition:</strong> 2nd in Queensland for JB Hi-Fi Las Vegas Competition (2012).</li>
-                <li><strong>Retail Tech Innovation:</strong> Managed the first ever retail tech support offering for Telstra stores called the "My Place Bar".</li>
+                <li><strong>Retail Tech Innovation:</strong> Managed the first ever retail tech support offering for Telstra stores — the "My Place Bar".</li>
                 <li><strong>Telstra High Flyers Club:</strong> Member (2009) and Top Consultant for Region (2007).</li>
                 <li><strong>Leadership:</strong> Selected for the first Telstra Stepping Into Management Program in QLD (2009).</li>
             </ul>
@@ -47,36 +60,73 @@
 
         <div class="section">
             <h2>Professional Experience</h2>
+
+            <div class="experience-item">
+                <h3>Founder &amp; Security Consultant | CyberSurf Security</h3>
+                <p class="date">2025 – Present · Sunshine Coast, QLD</p>
+                <p>Built a live cybersecurity services business from the ground up. Developed automated breach checking using Dehashed and HIBP APIs, HTML report generation, secure delivery via pCloud, and a full Stripe payment and webhook pipeline. Services span breach checks, password manager setup, 2FA activation, and home/business network security scans.</p>
+            </div>
+
             <div class="experience-item">
                 <h3>Financial Services Sales | AGAT Business Pty Ltd</h3>
-                <p class="date">2022 - 2024</p>
-                <p>Managed $45M in funds under management, specializing in explaining complex financial concepts to a diverse clientele and gathering critical data for comprehensive financial reviews.</p>
+                <p class="date">2022 – 2024</p>
+                <p>Managed $45M in funds under management, specialising in explaining complex financial concepts to a diverse clientele and gathering critical data for comprehensive financial reviews.</p>
             </div>
+
             <div class="experience-item">
-                <h3>Business Owner & Tech Support | Self-Employed</h3>
-                <p class="date">2015 - 2021</p>
+                <h3>Business Owner &amp; Tech Support | Self-Employed</h3>
+                <p class="date">2015 – 2021</p>
                 <p>Operated a successful retail accessory business while providing technical support services across the Sunshine Coast.</p>
             </div>
+
             <div class="experience-item">
-                <h3>Communications Sales Specialist | JB Hi-Fi & Harvey Norman</h3>
-                <p class="date">2010 - 2016</p>
-                <p>Consistently exceeded sales targets for telecommunications and mobile hardware. Recognized for high-volume contract sales at a national level.</p>
+                <h3>Communications Sales Specialist | JB Hi-Fi &amp; Harvey Norman</h3>
+                <p class="date">2010 – 2016</p>
+                <p>Consistently exceeded sales targets for telecommunications and mobile hardware. Recognised for high-volume contract sales at a national level.</p>
             </div>
+
             <div class="experience-item">
-                <h3>Retail Sales Representative & Duty Manager | Telstra</h3>
-                <p class="date">2007 - 2010</p>
+                <h3>Retail Sales Representative &amp; Duty Manager | Telstra</h3>
+                <p class="date">2007 – 2010</p>
                 <p>Led regional sales performance and assisted in training new staff while managing store operations.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills &amp; Tools</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">Cybersecurity Consulting</span>
+                <span class="skill-tag">Dark Web Monitoring</span>
+                <span class="skill-tag">Breach Investigation</span>
+                <span class="skill-tag">Network Security Analysis</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Flask</span>
+                <span class="skill-tag">Linux / WSL2</span>
+                <span class="skill-tag">API Integration</span>
+                <span class="skill-tag">Stripe Payments</span>
+                <span class="skill-tag">Splunk</span>
+                <span class="skill-tag">Kali Linux</span>
+                <span class="skill-tag">Malwarebytes</span>
+                <span class="skill-tag">Bitwarden</span>
+                <span class="skill-tag">2FA &amp; MFA Setup</span>
+                <span class="skill-tag">Password Manager Deployment</span>
+                <span class="skill-tag">Git / GitHub</span>
+                <span class="skill-tag">Render Cloud Deployment</span>
+                <span class="skill-tag">AI-Assisted Development</span>
+                <span class="skill-tag">Client Education</span>
+                <span class="skill-tag">Sales Leadership</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="experience-item">
+                <h3>Cert IV in Cybersecurity | Mooloolaba TAFE</h3>
+                <p class="date">In Progress</p>
             </div>
         </div>
     </div>
 </div>
-
-<style>
-    .experience-item { margin-bottom: 20px; }
-    .experience-item h3 { font-size: 18px; margin: 0; color: #0a66c2; }
-    .date { color: rgba(0,0,0,0.6); font-size: 14px; margin: 2px 0 8px 0; }
-    ul li { margin-bottom: 8px; }
-</style>
 
 </body>
 </html>
